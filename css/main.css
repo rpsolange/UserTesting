@@ -1,0 +1,121 @@
+/* -- Header --*/
+header{
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+}
+.navbar{
+	padding: 3% 2%;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+header a img{
+	margin-top: 10px;
+	width: 230px;
+}
+header nav a{
+	font-size: 1.5em;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #337ab7;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Fondo Image - Section*/
+.fondo{
+	background-image: url("../image/large.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 88vh;
+}
+.opaco{
+	background-color: rgba(85, 85, 85, 0.57);
+	height: 100%;
+}
+.fondo h1{
+	text-align: center;
+	color: white;
+	font-size: 3.3em;
+	padding: 18% 22%;
+}
+
+/* Prueba Gratis*/
+.prueba{
+	background-color: rgba(78, 126, 184, 0.83);
+	color: white;
+	position: absolute;
+	width: 100%;
+	bottom: 84px;
+	padding: 2% 22%;
+}
+.prueba h2{
+	font-size: 2em;
+}
+.prueba p{
+	font-size: 1.2em;
+}
+.prueba button{
+	border-radius: 5px;
+	font-size: 1.8em;
+	padding: 2% 4%;
+	background-color: transparent;
+	border: 2px solid white; 
+	margin-top: 25px;
+}
+
+/* Servicios - Section */
+.servicio h1{
+	text-align: center;
+	color: #73A9FF;
+	margin-top: 10%;
+	font-weight: lighter;
+}
+.servicio button{
+	padding: 10%;
+	border-radius: 50%;
+	background-color: white;
+	border: none;
+	box-shadow: 2px 2px 4px 2px rgba(128, 128, 128, 0.14);
+}
+.servicio button i{
+	font-size: 3em;
+	color: #73A9FF;
+}
+.caja{
+	text-align: center;
+	margin: 5% 0% 2%;
+}
+.caja p{
+	color: #767676;
+	padding: 0% 12%;
+}
+.caja h4{
+	padding: 4%;
+	color: #8099B2;
+	line-height: 30px;
+}
+.separador{
+	position: relative;
+	bottom: -50px;
+	left: 550px;
+}
+
+/* Ejemplo - Section*/
+.ejemplo{
+	border-top: 1px solid #F4F4F4;
+	padding: 8% 6% 6%;
+}
+.logo{
+	width: 280px;
+	display: inline-block;
+}
+.ejemplo h1{
+	color: #73A9FF;
+	display: inline;
+}
