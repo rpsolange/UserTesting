@@ -35,7 +35,7 @@ header nav a{
 	height: 88vh;
 }
 .opaco{
-	background-color: rgba(85, 85, 85, 0.57);
+	background-color: rgba(63, 78, 91, 0.66);
 	height: 100%;
 }
 .fondo h1{
@@ -118,4 +118,34 @@ header nav a{
 .ejemplo h1{
 	color: #73A9FF;
 	display: inline;
+}
+.adquirir{
+	border-top: 1px solid #F4F4F4;
+	border-bottom: 1px solid #F4F4F4;
+}
+.work{
+	background-image: url("../image/sec-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+}
+.adquirir h2{
+	padding: 3% 8%;
+}
+.texto{
+	padding: 2% 8%;
+	line-height: 28px;
+}
+.texto p:first-child{
+	color: #73A9FF;
+	font-size: 1.5em;
+	margin-bottom: 6px;
+}
+.texto ul{
+	padding-left: 15px;
+}
+.icon{
+	position: relative;
+	top: -55px;
+	left: 610px;
 }
