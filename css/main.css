@@ -1,3 +1,10 @@
+a:hover{
+	text-decoration: none;
+}
+#menu.active{
+	background-color: #2A3541;
+}
+
 /* -- Header --*/
 header{
 	position: fixed;
@@ -46,21 +53,23 @@ header nav a{
 }
 
 /* Prueba Gratis*/
-.prueba{
+.prueba, .gratis{
 	background-color: rgba(78, 126, 184, 0.83);
 	color: white;
-	position: absolute;
 	width: 100%;
-	bottom: 84px;
-	padding: 2% 22%;
 }
-.prueba h2{
+.prueba{
+	padding: 2% 22%;
+	position: absolute;
+	bottom: 12%;
+}
+.prueba h2, .gratis h2{
 	font-size: 2em;
 }
-.prueba p{
+.prueba p, .gratis p{
 	font-size: 1.2em;
 }
-.prueba button{
+.prueba button, .gratis button{
 	border-radius: 5px;
 	font-size: 1.8em;
 	padding: 2% 4%;
@@ -100,25 +109,45 @@ header nav a{
 	color: #8099B2;
 	line-height: 30px;
 }
-.separador{
+.separador, .flecha{
 	position: relative;
-	bottom: -50px;
-	left: 550px;
+	left: 46%;
+}
+.separador{
+	top: 50px;
 }
 
-/* Ejemplo - Section*/
+/* Ejemplo - row*/
 .ejemplo{
 	border-top: 1px solid #F4F4F4;
 	padding: 8% 6% 6%;
 }
+.title{
+	text-align: center;
+	margin-bottom: 3%;
+}
+.ejemplo p{
+	margin-bottom: 0;
+	line-height: 25px;
+}
+.ejemplo a{
+	font-size: 0.9em;
+}
 .logo{
 	width: 280px;
 	display: inline-block;
+	padding-bottom: 2.5%;
 }
-.ejemplo h1{
+.ejemplo h1, .usar h1{
 	color: #73A9FF;
 	display: inline;
 }
+.ejemplo .arrow{
+	display: block;
+	margin: auto;
+}
+
+/*Adquirir - Row*/
 .adquirir{
 	border-top: 1px solid #F4F4F4;
 	border-bottom: 1px solid #F4F4F4;
@@ -133,10 +162,14 @@ header nav a{
 	padding: 3% 8%;
 }
 .texto{
-	padding: 2% 8%;
+	padding: 3% 8%;
 	line-height: 28px;
 }
-.texto p:first-child{
+.texto p{
+	margin-bottom: 0;
+	font-size: 1.1em;
+}
+.texto p:nth-child(2){
 	color: #73A9FF;
 	font-size: 1.5em;
 	margin-bottom: 6px;
@@ -144,8 +177,66 @@ header nav a{
 .texto ul{
 	padding-left: 15px;
 }
+.flecha{
+	bottom: 55px;
+}
 .icon{
-	position: relative;
-	top: -55px;
-	left: 610px;
+	position: absolute;
+	font-size: 2.3em;
+	color: white;
+	display: block;
+	border-radius: 50%;
+	background-color: #50BDEA;
+	padding: 2%;
+	right: 96%;
+}
+.texto a.icon:nth-child(3){
+	margin: 0;
+}
+.uno{
+	margin: 6% 0%;
+}
+
+/* Por qué usar - Row */
+.usar ul{
+	margin: 3% 0%;
+	line-height: 26px;
+}
+.usar p{
+	line-height: 24px;
+}
+.banner{
+	width: 100%;
+}
+.usar{
+	padding: 0% 4%;
+	font-size: 0.9em;
+}
+.gratis button{
+	float: right;
+}
+.gratis{
+	margin-top: 10%;
+	padding: 2% 10%;
+}
+
+/* Footer */
+footer{
+	background-color: #2A3541;
+	color: white;
+	padding: 3%;
+	line-height: 28px;
+}
+footer p{
+	margin-bottom: 0;
+}
+.right{
+	text-align: right;
+}
+.right a{
+	font-size: 2.2em;
+}
+.right a:nth-child(2){
+	margin-left: 5%;
+	margin-right: 1%;
 }

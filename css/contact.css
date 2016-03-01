@@ -1,0 +1,13 @@
+/* Formulario Contact */
+
+.contact{
+	background-image: url("../image/large.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.formulario{
+	width: 70%;
+	margin: auto;
+	background-color: white;
+}
