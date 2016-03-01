@@ -8,6 +8,13 @@
 }
 .formulario{
 	width: 70%;
-	margin: auto;
+	margin: 15% auto;
 	background-color: white;
+}
+.formulario h3{
+	border-bottom: 1px solid black;
+	margin: auto 10%;
+}
+form{
+	margin: 0% 11%;
 }

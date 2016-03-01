@@ -19,32 +19,34 @@
 			<div class="formulario">
 				<h3>Formulario User Testing 360</h3>
 				<form method="get">
-					<table>
-						<tr>
-							<td>Nombre<font>*</font></td>
-							<td>
-								<input type="text" name="nombre">
-							</td>
-						</tr>
-						<tr>
-							<td>Email<font>*</font></td>
-							<td>
-								<input type="email" name="correo">
-							</td>
-						</tr>
-						<tr>
-							<td>Dejame tu URL<font>*</font></td>
-							<td>
-								<textarea cols="22" rows="3"></textarea>
-							</td>
-						</tr>
-						<tr>
-							<td></td>
-							<td>
-								<button>Enviar Email</button>
-							</td>
-						</tr>
-					</table>
+					<div class="row">
+						<div class="col-md-4">
+							<label>Nombre<font color="red">*</font></label>
+							</label>
+						</div>
+						<div class="col-md-8">
+							<input type="text" name="nombre">
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4">
+							<label>Email<font color="red">*</font></label>
+						</div>
+						<div class="col-md-8">
+							<input type="email" name="correo">
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-4">
+							<label>Dejame tu URL<font color="red">*</font></label>
+						</div>
+						<div class="col-md-8">
+							<textarea cols="22" rows="3"></textarea>
+							<button>Enviar Email</button>
+						</div>
+					</div>
 					<input type="text" name="nombre">
 				</form>
 				<div class="row">
