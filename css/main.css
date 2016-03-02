@@ -1,3 +1,6 @@
+*{
+	font-family: 'Lato', sans-serif;
+}
 a:hover{
 	text-decoration: none;
 }
@@ -12,7 +15,7 @@ header{
 	width: 100%;
 }
 .navbar{
-	padding: 3% 2%;
+	padding: 2%;
 }
 .navbar-default {
     background-color: transparent;
@@ -49,7 +52,7 @@ header nav a{
 	text-align: center;
 	color: white;
 	font-size: 3.3em;
-	padding: 18% 22%;
+	padding: 16% 22%;
 }
 
 /* Prueba Gratis*/
@@ -83,7 +86,6 @@ header nav a{
 	text-align: center;
 	color: #73A9FF;
 	margin-top: 10%;
-	font-weight: lighter;
 }
 .servicio button{
 	padding: 10%;
@@ -210,7 +212,6 @@ header nav a{
 }
 .usar{
 	padding: 0% 4%;
-	font-size: 0.9em;
 }
 .gratis button{
 	float: right;
@@ -229,6 +230,9 @@ footer{
 }
 footer p{
 	margin-bottom: 0;
+}
+.right a:hover{
+	color: white;
 }
 .right{
 	text-align: right;

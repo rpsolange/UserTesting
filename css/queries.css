@@ -1,0 +1,9 @@
+@media (max-width: 480px){
+	.fondo h1{
+		font-size: 2.5em;
+		padding: 24% 5%;
+	}
+	.navbar-default {
+		background-color: #2A3541;
+	}
+}
